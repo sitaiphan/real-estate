@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet"href="Web.css">
+    <title>Dragon City Park</title>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            var nut = document.querySelector('div.icon i');
+            var mobile = document.querySelector('ul');
+            nut.addEventListener('click',function(){
+                mobile.classList.toggle('active');
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="ảnh/logo.png" width="120px"height="100%">
+            <h2>Khu đô thị xanh Dragon City Park</h2>
+        </header>
+        <nav id="menudoc">
+            <div class="icon"><i class="fa-solid fa-bars"></i></div>
+            <ul>
+                <li><a href="tongquan.html">Tổng quan</a></li>
+                <li><a href="vitri.html">Vị trí</a></li>
+                <li><a href="matbang.html">Mặt bằng</a></li>
+                <li><a href="banggia.html">Bảng giá</a></li>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Thông tin liên hệ</h1>
+            <table style="width: 300px;height: 150px;">
+                <tr>
+                    <td><label>Họ và tên: </label></td>
+                    <td><input type="text"value="Nguyen Van A"name="ten"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Số điện thoại: </td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"value="Gửi"></td>
+                </tr>
+            </table>
+        </section>
+        <footer>Địa chỉ: 98 đường 2 tháng 9<br>
+            Sđt: 0932 453 357<br>
+            Email: sitaiphan@gmail.com | website: <a href="https://www.dananginvest.com/">https://www.dananginvest.com/</a></footer>
+    </div>
+</body>
+</html>
